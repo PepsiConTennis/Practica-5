@@ -1,0 +1,24 @@
+//Hernandez Morales Eduardo Martin Ejercicio 1 Pseudocodigo
+
+Algoritmo 
+	
+	s = 0
+	d = 0
+	i = 1
+	
+	Mientras i <= 20 Hacer
+		Si i mod 2 = 0 Entonces
+			s = s + i
+			i = i + 1
+		SiNo
+			d = d + i
+			i = i + 1
+		Fin Si
+	Fin Mientras
+	Mostrar "Suma par de: ", s
+	
+	Mostrar "Suma impar de: ", d
+	
+	
+	
+FinAlgoritmo
