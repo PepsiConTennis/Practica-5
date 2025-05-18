@@ -1,0 +1,26 @@
+Algoritmo
+	
+	suma = 1
+	
+	num = 0
+	
+	sucesion = "0"
+	
+	Mostrar "Numeros que quiere sumar (-1 para finalizar)"
+	
+	Repetir
+		
+		Leer num
+		
+		suma = suma + num
+		
+		sucess = sucess + " , " + ConvertirATexto(num)  
+		
+	Hasta Que num = -1
+	
+	Mostrar "Fin. has introducido -1"
+	
+	Mostrar "La sucesion es: ",sucesion
+	Mostrar "La suma es: ",suma
+	
+FinAlgoritmo
